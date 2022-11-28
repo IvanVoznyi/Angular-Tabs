@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+
+  border-bottom: 1px solid black;
+
+  li {
+    list-style: none;
+
+    button {
+      border: none;
+      padding: 15px;
+      background-color: transparent;
+      cursor: pointer;
+
+    }
+
+    &:hover {
+      background-color: rgba(grey, 0.4);
+    }
+    
+    &.active {
+      background-color: rgba(grey, 0.2);
+      &:hover {
+        background-color: rgba(grey, 0.4);
+      }
+    }
+  }
+}

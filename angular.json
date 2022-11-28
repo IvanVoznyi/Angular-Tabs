@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-tabs",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -48,6 +48,7 @@
                   "maximumError": "4kb"
                 }
               ],
+              "baseHref": "https://ivanvoznyi.github.io/Angular-Tabs/",
               "outputHashing": "all"
             },
             "development": {
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d6def622-6c95-4d66-9e45-e918bb930c4b"
   }
 }

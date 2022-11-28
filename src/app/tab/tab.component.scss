@@ -1,0 +1,13 @@
+$tab-nav-height: 45px;
+$tab-nav-margin-top: 16px;
+$tab-nav-border-bottom-height: 1px;
+$body-margin-bottom: 8px;
+
+$offset: $tab-nav-height +
+         $tab-nav-margin-top + 
+         $tab-nav-border-bottom-height + 
+         $body-margin-bottom;
+
+.tab {
+    height: calc(100vh - $offset);
+}
